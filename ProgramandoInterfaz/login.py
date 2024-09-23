@@ -1,12 +1,15 @@
 from PyQt5 import QtWidgets, uic
 
+def suma(x, y):
+    return x + y
+
 # INICIAR LA APLICACION
 app = QtWidgets.QApplication([])
 
 # CARGAR ARCHIVOS UI (INTERFAZ GRAFICA)
-ventanaLogin = uic.loadUi("ventanaLogin1.ui")
-ventanaMenuOpciones = uic.loadUi("../ventanaMenuOpciones/ventanaMenuOpciones.ui")
-ventanaLoginIncorrecto = uic.loadUi("ventanaLogin2-inicioIncorrecto.ui")
+ventanaLogin = uic.loadUi("ventanaLogin/ventanaLogin1.ui")
+ventanaMenuOpciones = uic.loadUi("ventanaMenuOpciones/ventanaMenuOpciones.ui")
+ventanaLoginIncorrecto = uic.loadUi("ventanaLogin/ventanaLogin2-inicioIncorrecto.ui")
 
 # -----------------------------------------------------------------------------------------------------
 # FUNCION OBTENER DATOS DE LOGIN VENTANA LOGIN AQUI SE AGREGARIA LA CONEXION CON LA BASE DE DATOS
@@ -69,6 +72,7 @@ def regresardeventanaLoginInCorrecto():
 # FUNCION BOTON SALIR DEL PROGRAMA
 def salir():
     app.exit()
+
 
 
 # CONEXION DE BOTONES CON FUNCION
