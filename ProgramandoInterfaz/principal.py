@@ -28,10 +28,13 @@ class VentanaLogin():
         name = self.ventanaLogin.lineEdit.text()
         password = self.ventanaLogin.lineEdit_2.text()
 
+        # AQUI SE DEB PONER EL CODIGO QUE EVALUE EN LA BASE DE DATOS LA CONTRASEÑA Y EL USUARIO
+        #Y DEPENDIENDO DEL ROL SI ES ADMIN MUESTRE ESTA INTERFAZ Y SI ES VENDEDOR QUE MUESTRE LA INTERFAZ DE VENDEDOR
+
         if len(name) == 0 or len(password) == 0:
             self.ventanaLogin.label_4.setText("Ingrese todos los datos")
 
-        elif name == "jose" and password == "jose123":
+        elif name == "jose" and password == "jose":
             self.ventanaLogin.hide()
             MenuOpciones().showMenuOpciones()
 

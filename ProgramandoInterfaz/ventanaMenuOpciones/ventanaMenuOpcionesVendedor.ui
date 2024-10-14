@@ -38,10 +38,10 @@ background-color: rgb(239, 81, 52);
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>20</y>
-      <width>181</width>
-      <height>171</height>
+      <x>250</x>
+      <y>30</y>
+      <width>201</width>
+      <height>191</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -102,7 +102,7 @@ color: white
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>200</y>
+      <y>240</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -114,27 +114,11 @@ color: white
      <string>Controlar Stock</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="botonGestionarProveedores">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>200</y>
-      <width>261</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 63 13pt &quot;Segoe UI Variable Display Semib&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Gestionar Proveedores</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="botonRegistrarCompras">
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>340</y>
+      <y>320</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -150,7 +134,7 @@ color: white
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>270</y>
+      <y>240</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -160,22 +144,6 @@ color: white
     </property>
     <property name="text">
      <string>Realizar Ventas</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="botonGestionarClientes">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>270</y>
-      <width>261</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 63 13pt &quot;Segoe UI Variable Display Semib&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Gestionar Clientes</string>
     </property>
    </widget>
   </widget>
